@@ -1,5 +1,4 @@
 # Maintainer:  specimen-hub
-# Contributor: specimen-hub
 
 _pkgname=dmenu
 pkgname=$_pkgname-git
