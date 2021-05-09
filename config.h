@@ -16,8 +16,8 @@ static const char col_red1[]   = "#c10000";
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { col_red1, col_gray1 },
-	[SchemeSel] = { col_gray1, col_red1 },
+	[SchemeNorm] = { col_gray4, col_gray1 },
+	[SchemeSel] = { col_gray1, col_gray4 },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
