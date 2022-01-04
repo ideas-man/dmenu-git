@@ -1,5 +1,3 @@
-# Maintainer:  specimen-hub
-
 _pkgname=dmenu
 pkgname=$_pkgname-git
 pkgver=5.0
@@ -27,4 +25,3 @@ package() {
   make PREFIX=/usr DESTDIR="$pkgdir" install
   install -Dm644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
 }
-
